@@ -11,7 +11,7 @@ bird1 = Bird.create!(
   name: "Sunny",
   breed: "Cockatiel",
   description: "Normal Grey, 6 years old, tame, cage included.",
-  photo: File.new("#{Rails.root}/client/public/cats/images/bird_1.jpg"),
+  photo: File.new("#{Rails.root}/client/public/cats/images/bird_1.png"),
   address: "461 Spring Street, Naugatuck, CT",
   contact_info: "bird1@gmail.com or 555-555-5555",
   latitude: 41.511056,
