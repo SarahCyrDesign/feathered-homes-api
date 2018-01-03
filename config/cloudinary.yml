@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: sarahcyrdesign
+  api_key: '113585497681167'
+  api_secret: MDU2BwMiYtmMQjNqg8zY6LTfNE8
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: sarahcyrdesign
+  api_key: '113585497681167'
+  api_secret: MDU2BwMiYtmMQjNqg8zY6LTfNE8
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: sarahcyrdesign
+  api_key: '113585497681167'
+  api_secret: MDU2BwMiYtmMQjNqg8zY6LTfNE8
+  enhance_image_tag: true
+  static_image_support: false
