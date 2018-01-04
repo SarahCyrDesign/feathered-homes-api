@@ -1,4 +1,4 @@
-class API::BirdsController < ApiController
+class Api::BirdsController < ApiController
   before_action :set_bird, only: [:show, :update, :destroy]
 
   def index
@@ -33,7 +33,7 @@ class API::BirdsController < ApiController
   end
 
   private
-  
+
     def set_bird
       bird = Bird.find(params[:id])
     end
