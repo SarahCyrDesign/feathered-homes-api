@@ -39,6 +39,6 @@ class Api::BirdsController < ApiController
     end
 
     def bird_params
-      params.require(:bird).permit(:name, :breed, :description, :photo, :address, :contact_info)
+      params.require(:bird).permit(:name, :breed, :description, :photo, :address, :contact_info, :hearts)
     end
 end
