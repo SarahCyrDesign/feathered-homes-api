@@ -15,7 +15,8 @@ bird1 = Bird.create!(
   address: "461 Spring Street, Naugatuck, CT",
   contact_info: "bird1@gmail.com or 555-555-5555",
   latitude: 41.511056,
-  longitude: -73.058551
+  longitude: -73.058551,
+  hearts: 1
 )
 
 bird2 = Bird.create!(
@@ -26,7 +27,8 @@ bird2 = Bird.create!(
   address: "45 Brookvale Drive, Wallingford, CT",
   contact_info: "bird2@gmail.com or 777-777-7777",
   latitude: 41.438720,
-  longitude: -72.821894
+  longitude: -72.821894,
+  hearts: 3
 )
 
 bird3 = Bird.create!(
@@ -48,7 +50,8 @@ bird4 = Bird.create!(
   address: "75 Main St, Southington, CT",
   contact_info: "bird4@gmail.com or 999-999-9999",
   latitude: 41.587931,
-  longitude: -72.889181
+  longitude: -72.889181,
+  hearts: 6
 )
 
 bird5 = Bird.create!(
@@ -70,5 +73,6 @@ bird6 = Bird.create!(
   address: "14 Park Place, Vernon, CT",
   contact_info: "bird6@gmail.com or 333-333-3333",
   latitude: 41.867620,
-  longitude: -72.448651
+  longitude: -72.448651,
+  hearts: 10
 )
